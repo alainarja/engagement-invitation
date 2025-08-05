@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { Heart, Calendar, Clock, MapPin, Globe } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-export default function EngagementInvitation() {
+export default function EngagementInvitation630() {
   const [currentImage, setCurrentImage] = useState(0)
   const [isVisible, setIsVisible] = useState(false)
   const [language, setLanguage] = useState('en')
@@ -182,7 +182,7 @@ export default function EngagementInvitation() {
                     className={`font-medium ${language === 'ar' ? 'font-arabic' : ''}`}
                     style={{ textShadow: "0 2px 4px rgba(0,0,0,0.8), 0 1px 2px rgba(0,0,0,0.6)" }}
                   >
-                    {t.time430}
+                    {t.time630}
                   </p>
                 </div>
               </div>
