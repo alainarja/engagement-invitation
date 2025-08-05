@@ -49,7 +49,7 @@ export default function EngagementInvitation() {
     en: {
       youreInvited: "You're Invited",
       engagementCelebration: "Engagement Celebration",
-      date: "January 17th, 2025",
+      date: "August 17th, 2025",
       time430: "4:30 PM",
       time630: "6:30 PM",
       locationText: "Click below for location details",
@@ -59,7 +59,7 @@ export default function EngagementInvitation() {
     ar: {
       youreInvited: "أنت مدعو",
       engagementCelebration: "حفل الخطوبة",
-      date: "17 يناير 2025",
+      date: "17 أغسطس 2025",
       time430: "4:30 مساءً",
       time630: "6:30 مساءً",
       locationText: "انقر أدناه لتفاصيل الموقع",

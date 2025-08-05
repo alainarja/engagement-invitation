@@ -8,11 +8,11 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Imad & Nour - Engagement Invitation",
   description:
-    "Join us for our engagement celebration on January 17th, 2025 at 4:30 PM. An evening of love & celebration awaits!",
+    "Join us for our engagement celebration on August 17th, 2025 at 4:30 PM. An evening of love & celebration awaits!",
   openGraph: {
     title: "Imad & Nour - Engagement Invitation",
     description:
-      "Join us for our engagement celebration on January 17th, 2025 at 4:30 PM. An evening of love & celebration awaits!",
+      "Join us for our engagement celebration on August 17th, 2025 at 4:30 PM. An evening of love & celebration awaits!",
     images: [
       {
         url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-08-05%20at%201.01.32%20PM-TEpkdFzBho1yMHhqQsrL4yJSl1pOPA.jpeg",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Imad & Nour - Engagement Invitation",
     description:
-      "Join us for our engagement celebration on January 17th, 2025 at 4:30 PM. An evening of love & celebration awaits!",
+      "Join us for our engagement celebration on August 17th, 2025 at 4:30 PM. An evening of love & celebration awaits!",
     images: [
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-08-05%20at%201.01.32%20PM-TEpkdFzBho1yMHhqQsrL4yJSl1pOPA.jpeg",
     ],
@@ -51,7 +51,7 @@ export default function RootLayout({
         <meta property="og:title" content="Imad & Nour - Engagement Invitation" />
         <meta
           property="og:description"
-          content="Join us for our engagement celebration on January 17th, 2025 at 4:30 PM. An evening of love & celebration awaits!"
+          content="Join us for our engagement celebration on August 17th, 2025 at 4:30 PM. An evening of love & celebration awaits!"
         />
         <meta
           property="og:image"
@@ -62,7 +62,7 @@ export default function RootLayout({
         <meta name="twitter:title" content="Imad & Nour - Engagement Invitation" />
         <meta
           name="twitter:description"
-          content="Join us for our engagement celebration on January 17th, 2025 at 4:30 PM. An evening of love & celebration awaits!"
+          content="Join us for our engagement celebration on August 17th, 2025 at 4:30 PM. An evening of love & celebration awaits!"
         />
         <meta
           name="twitter:image"
