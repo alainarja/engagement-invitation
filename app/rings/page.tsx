@@ -4,14 +4,13 @@ import { useState, useEffect } from "react"
 import { Heart, Calendar, Clock, MapPin, Globe } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-export default function EngagementInvitation730() {
+export default function EngagementRings() {
   const [currentImage, setCurrentImage] = useState(0)
   const [isVisible, setIsVisible] = useState(false)
   const [language, setLanguage] = useState('en')
 
+  // Only the ring images
   const images = [
-    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-08-05%20at%201.01.32%20PM%20%281%29-f2WLxnET0qUcHKtMm0u6qwCApgZZ3x.jpeg", // Couple embracing with red roses
-    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-08-05%20at%201.01.32%20PM%20%282%29-rFO2FWaDkJfFdqrlEQsjZxXpQqzRAF.jpeg", // Woman smiling showing ring with roses
     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-08-05%20at%201.01.32%20PM-TEpkdFzBho1yMHhqQsrL4yJSl1pOPA.jpeg", // Couple showing ring together with neon sign
     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-08-05%20at%201.01.33%20PM-8Vu1wnZh3qXbg3YzjsuL2dWwYArLge.jpeg", // Close-up of hands with engagement ring
     "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-08-05%20at%201.01.33%20PM%20%281%29-QEgKmdrqz4lHptyFq7WGFXq9sFnWyz.jpeg", // Intimate close-up of hands with ring
@@ -29,7 +28,7 @@ export default function EngagementInvitation730() {
     
     const interval = setInterval(() => {
       setCurrentImage((prev) => (prev + 1) % images.length)
-    }, 4000) // Changed from 5000 to 4000
+    }, 4000)
     return () => clearInterval(interval)
   }, [images.length])
 
