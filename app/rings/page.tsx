@@ -181,7 +181,7 @@ export default function EngagementRings() {
                     className={`font-medium ${language === 'ar' ? 'font-arabic' : ''}`}
                     style={{ textShadow: "0 2px 4px rgba(0,0,0,0.8), 0 1px 2px rgba(0,0,0,0.6)" }}
                   >
-                    {t.time730}
+                    {t.time430}
                   </p>
                 </div>
               </div>
