@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { Heart, Calendar, Clock, MapPin, Globe } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-export default function EngagementInvitation630() {
+export default function EngagementInvitation400() {
   const [currentImage, setCurrentImage] = useState(0)
   const [isVisible, setIsVisible] = useState(false)
   const [language, setLanguage] = useState('en')
@@ -50,8 +50,7 @@ export default function EngagementInvitation630() {
       youreInvited: "You're Invited",
       engagementCelebration: "Engagement Celebration",
       date: "August 17th, 2025",
-      time430: "4:30 PM",
-      time630: "6:30 PM",
+      time400: "4:00 PM",
       locationText: "Click below for location details",
       viewLocation: "View Location",
       footerText: "Join us for an evening of love & celebration"
@@ -60,8 +59,7 @@ export default function EngagementInvitation630() {
       youreInvited: "أنت مدعو",
       engagementCelebration: "حفل الخطوبة",
       date: "17 أغسطس 2025",
-      time430: "4:30 مساءً",
-      time630: "6:30 مساءً",
+      time400: "4:00 مساءً",
       locationText: "انقر أدناه لتفاصيل الموقع",
       viewLocation: "عرض الموقع",
       footerText: "انضم إلينا لأمسية من الحب والاحتفال"
@@ -182,7 +180,7 @@ export default function EngagementInvitation630() {
                     className={`font-medium ${language === 'ar' ? 'font-arabic' : ''}`}
                     style={{ textShadow: "0 2px 4px rgba(0,0,0,0.8), 0 1px 2px rgba(0,0,0,0.6)" }}
                   >
-                    {t.time630}
+                    {t.time400}
                   </p>
                 </div>
               </div>
