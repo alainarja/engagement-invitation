@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Imad & Nour - Engagement Invitation",
   description:
     "Join us for our engagement celebration on August 17th, 2025 at 4:30 PM. An evening of love & celebration awaits!",
+  metadataBase: new URL('https://imad-nour.vercel.app'),
   openGraph: {
     title: "Imad & Nour - Engagement Invitation",
     description:
