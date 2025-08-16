@@ -34,7 +34,7 @@ export default function EngagementRings() {
 
 
   const handleLocationClick = () => {
-    window.open("https://maps.app.goo.gl/WeKuvd7A1HeqXBvd8", "_blank")
+    window.open("https://maps.app.goo.gl/qTpKa825wwAR7FMJ8?g_st=awb", "_blank")
   }
 
   const toggleLanguage = () => {
