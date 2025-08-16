@@ -35,7 +35,7 @@ export default function EngagementInvitation() {
 
 
   const handleLocationClick = () => {
-    window.open("https://maps.app.goo.gl/gAWRXSCiES3tVjsd6?g_st=awb", "_blank")
+    window.open("https://maps.app.goo.gl/WeKuvd7A1HeqXBvd8", "_blank")
   }
 
   const toggleLanguage = () => {
